@@ -1,0 +1,94 @@
+/* Fondo del proyecto */
+body {
+    background-color: #e0f7fa; /* Color celeste suave */
+    font-family: 'Arial', sans-serif; /* Fuente más bonita y moderna */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Centra el contenido */
+    align-items: center;
+}
+
+/* Estilos generales para botones */
+button {
+    padding: 10px 20px; /* Más espacio horizontal */
+    font-size: 16px;
+    border: none;
+    border-radius: 4px; /* Cambiado a esquinas rectas */
+    cursor: pointer;
+    margin-right: 10px; /* Separación entre botones */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botón "Guardar" */
+button.guardar {
+    background-color: #4caf50; /* Verde */
+    color: white;
+}
+
+button.guardar:hover {
+    background-color: #45a049; /* Verde más oscuro */
+    color: white;
+}
+
+/* Botón "Eliminar" */
+button.eliminar {
+    background-color: #5c36cf; /* Rojo */
+    color: white;
+}
+
+button.eliminar:hover {
+    background-color: #5c36cf; /* Rojo más oscuro */
+    color: white;
+}
+
+/* Botón "Actualizar" */
+button.actualizar {
+    background-color: #044563; /* Celeste suave */
+    color: black;
+}
+
+button.actualizar:hover {
+    background-color: #044563; /* Celeste más oscuro */
+    color: black;
+}
+
+/* Estilo del formulario */
+.formulario {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: calc(100% - 24px);
+}
+
+/* Lista de usuarios */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #00796b; /* Texto verde oscuro */
+    margin-bottom: 10px; /* Espacio entre elementos */
+    padding: 10px;
+    border: 1px solid #00796b; /* Borde del mismo verde oscuro */
+    border-radius: 4px; /* Esquinas rectas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Fondo alternativo para elementos de la lista */
+li:nth-child(even) {
+    background-color: #e0f2f1; /* Verde claro */
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Letra diferente para títulos */
+    color: #00796b; /* Verde oscuro */
+}

@@ -1,0 +1,71 @@
+.formulario {
+    margin-bottom: 20px;
+}
+
+.formulario input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px; /* Agregado para que el campo de entrada tenga un ancho fijo */
+}
+
+.formulario .guardar {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario .guardar:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li strong {
+    margin-right: 10px;
+}
+
+li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Botón Eliminar (rojo) */
+li button:nth-child(2) {
+    background-color: #dc3545; /* Rojo */
+    color: white;
+}
+
+li button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+/* Botón Actualizar (celeste) */
+li button:nth-child(3) {
+    background-color: #17a2b8; /* Celeste */
+    color: white;
+}
+
+li button:nth-child(3):hover {
+    background-color: #138496;
+}
